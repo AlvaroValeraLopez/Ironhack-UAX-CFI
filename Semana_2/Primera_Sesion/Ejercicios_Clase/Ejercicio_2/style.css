@@ -1,0 +1,27 @@
+#container{
+    border:solid;
+    height: 95vh;
+}
+
+.izquierda{
+    border: solid chartreuse;
+    height: 100%;
+    width: 49%;
+    float: left;
+}
+
+.derecha{
+    border: solid crimson;
+    width: 49%;
+    float: right;
+}
+
+#DIV1{
+    border: solid orange;
+    height: 40%;
+}
+
+#DIV2{
+    border: solid coral;
+    height: 60%;
+}

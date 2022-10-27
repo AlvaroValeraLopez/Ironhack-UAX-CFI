@@ -1,0 +1,14 @@
+div {
+    width: 300px;
+    text-align: center;
+    
+    border: 5px dotted blue;
+
+    border-width: 50px;
+    border-style: dashed;
+    border-color: green;
+
+    border-top-width: 100px;
+    border-top-color: red;
+    border-top-style: double;
+}
