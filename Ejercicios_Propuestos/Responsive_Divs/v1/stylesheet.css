@@ -1,0 +1,54 @@
+#orange{
+    background-color: lightsalmon;
+}
+
+#red{
+    background-color: lightcoral;
+}
+
+#green{
+    background-color: lightgreen;
+}
+
+#blue{
+    background-color: lightskyblue;
+}
+
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.w25{
+    width: 25%;
+}
+
+.w75{
+    width: 75%;
+}
+
+.w100{
+    width: 100%;
+}
+
+.h15vh{
+    height: 15vh;
+}
+
+.h65vh{
+    height: 65vh;
+}
+
+.h80vh{
+    height: 80vh;
+}
+
+* {
+    margin: 5px;
+}

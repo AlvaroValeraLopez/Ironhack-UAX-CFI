@@ -1,0 +1,38 @@
+#orange{
+    width: 100%;
+    height: 15vh;
+    background-color: lightsalmon;
+}
+
+#red{
+    width: 25%;
+    background-color: lightcoral;
+}
+
+#green{
+    width: 100%;
+    height: 65vh;
+    background-color: lightgreen;
+}
+
+#blue{
+    width: 100%;
+    height: 15vh;
+    background-color: lightskyblue;
+}
+
+.container{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-2{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    margin: 5px;
+}
