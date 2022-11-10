@@ -1,0 +1,81 @@
+/* WEB SECTIONS. */
+header {
+    background-color: lightpink;
+}
+
+#links{
+    background-color: lightgreen;
+    justify-content: space-around;
+    margin: 5px auto 5px auto;
+    padding: 7px 0;
+}
+
+#section-1{
+    background-color: lightblue;
+}
+
+/* DISPLAY PROPERTIES. */
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.fixed{
+    position: fixed;
+}
+
+
+/* WIDTH PROPERTIES. */
+.w100{
+    width: 100%;
+}
+
+.w75{
+    width: 75%;
+}
+
+.w50{
+    width: 50%;
+}
+
+
+
+/* ALIGMENT PROPERTIES. */
+.left{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+/* TEXT PROPERTIES. */
+.uppercase{
+    text-transform: uppercase;
+}
+
+.t-left{
+    text-align: center;
+}
+
+.t-center{
+    text-align: center;
+}
+
+.t-right{
+    text-align: center;
+}

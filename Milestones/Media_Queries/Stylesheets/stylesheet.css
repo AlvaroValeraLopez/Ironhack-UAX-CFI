@@ -1,0 +1,49 @@
+header{
+    background-color: lightpink;
+}
+
+img{
+    max-width: 100%;
+}
+
+button{
+    width: 100px;
+    height: 25px;
+}
+
+#container{
+    height: 90vh;
+}
+
+.links{
+    height: 150px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: lightgreen;
+}
+
+#section-1{
+    background-color: lightblue;
+}
+
+#autors{
+    align-self: center;
+}
+
+.autor{
+    margin: 0px 5px;
+}
+
+#buttons > *{
+    margin: 0px 40px;
+}
+
+#section-2{
+    align-items: center;
+    background-color: lightgoldenrodyellow;
+}
+
+.border{
+    margin: -1px;
+    border: 1px solid;
+}

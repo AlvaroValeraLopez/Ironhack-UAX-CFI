@@ -1,0 +1,11 @@
+.t-uppercase{
+    text-transform: uppercase;
+}
+
+.t-center{
+    text-align: center; 
+}
+
+.t-bold{
+    font-weight: bold;
+}

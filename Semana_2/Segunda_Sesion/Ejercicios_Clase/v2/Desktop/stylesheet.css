@@ -1,0 +1,139 @@
+/* BODY ELEMENTS. */
+header{
+    padding: 1% 0;
+    background-color: lightpink;
+}
+
+nav{
+    align-items: center;
+    margin: auto 5px;
+    background-color: lightgreen;   
+    
+}
+
+a{
+    margin: 10px auto;
+}
+
+
+/* ID's */
+#section-1{
+    background-color: lightskyblue;
+}
+
+#autors{
+    overflow: hidden;
+    justify-content: center;
+}
+
+#section-2{
+    background-color: lightsalmon;
+}
+
+
+
+/*CLASSES*/
+.autor{
+    align-items: center;
+    margin: auto 5px;
+}
+
+.padding{
+    padding-left: 20px;
+}
+
+/*TEXT PROPERTIES. */
+.t-center{
+    text-align: center;
+}
+
+.t-uppercase{
+    text-transform: uppercase;
+}
+
+
+
+/*BORDER PROPERTIES.*/
+.b-solid{
+    border: 1px solid;
+}
+
+
+
+/*SIZE PROPERTIES.*/
+.w25{
+    width: 25%;
+}
+
+.w50{
+    width: 50%;
+}
+
+.w75{
+    width: 75%;
+}
+
+.w100{
+    width: 100%;
+}
+
+.h25{
+    height: 25%;
+}
+
+.h50{
+    height: 50%;
+}
+
+.h75{
+    height: 75%;
+}
+
+.h100vh{
+    height: 100em;
+}
+
+
+/*FLEXBOX PROPERTIES*/
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.self-left{
+    align-self: flex-start;
+}
+
+.self-center{
+    align-self: center;
+}
+
+.self-right{
+    align-self: flex-end;
+}
+
+.items-right{
+    align-items: flex-start;
+}
+
+.justify-bottom{
+    justify-content: flex-end;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-top{
+    justify-content: flex-start;
+}
+
+.column-reverse{
+    flex-direction: column-reverse;
+}

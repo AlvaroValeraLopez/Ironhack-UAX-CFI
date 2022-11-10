@@ -1,0 +1,76 @@
+/* BODY ELEMENTS.*/
+header{
+    background-color: lightpink;
+}
+
+nav{
+    justify-content: space-evenly;
+    margin: 0px auto 0px auto;
+    padding: 7px 0;
+    background-color: lightgreen;
+}
+
+/* ID's */
+#section-1{
+    border-top: solid;
+    background-color: lightblue;
+}
+
+#bottom-nav{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    border: 10px solid black;
+    background-color: lightcoral;
+}
+
+/* TEXT PROPERTIES. */
+.t-uppercase{
+    text-transform: uppercase;
+}
+
+.t-centered{
+    text-align: center;
+}
+
+.t-bold{
+    font-weight: bold;
+}
+
+/* SIZE PROPERTIES. */
+.w-100{
+    width: 100%;
+}
+
+.w-75{
+    width: 75%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+/* ALIGN PROPERTIES. */
+.self-left{
+    align-self: flex-start;
+}
+
+.self-center{
+    align-self: center;
+}
+
+.self-right{
+    align-self: flex-end;
+}
+
+/*FLEX PROPERTIES.*/
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
