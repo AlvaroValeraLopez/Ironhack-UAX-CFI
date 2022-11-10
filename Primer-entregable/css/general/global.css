@@ -14,3 +14,7 @@ nav > div{
 nav > div > div > a{
     margin: 0px 10px;
 }
+
+nav > .container{
+    margin-bottom: 0;
+}
