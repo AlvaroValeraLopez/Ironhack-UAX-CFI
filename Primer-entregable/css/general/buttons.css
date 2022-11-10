@@ -1,0 +1,57 @@
+/* GENERAL BUTTON SETTINGS*/
+.general-btn{
+    height: 3em;
+    border: none;
+    font-size: 1.5em;
+    padding: 0px 20px;
+    font-weight: bold;
+    background-color: white;
+}
+
+
+/* BUTTON STYLES */
+.gradient-btn{
+    color: white;
+    background-image: linear-gradient(to right, #3F02EB, #8E13EF);
+}
+
+
+.blue-btn{
+    color: white;
+    background-color: #2DC5FA;
+}
+.dark-blue-btn{
+    color: white;
+    background-color: #212353;
+}
+.red-google-btn{
+    color: white;
+    background-color: #E06C63;
+}
+
+.light-blue-btn{
+    color: #2DC5FA;
+    border: 2px solid #2DC5FA;
+}
+.light-dark-blue-btn{
+    color: #212353;
+    border: 1px solid #212353;
+}
+.light-purple-btn{
+    color: purple;
+    border: 1px solid purple;
+}
+
+/* BORDER RADIUS */
+.radius-5{
+    border-radius: 5px;
+}
+.radius-10{
+    border-radius: 10px;
+}
+.radius-15{
+    border-radius: 15px;
+}
+.radius-20{
+    border-radius: 20px;
+}

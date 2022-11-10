@@ -1,0 +1,93 @@
+@media (max-width: 1280px) {
+
+    .container{
+        margin: auto;
+        max-width: 90%;
+    }
+    
+    /* HERO SECTION. */
+    #hero{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: flex-end;
+    }
+    .img-wrapper{
+        display: inline-flex;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+        z-index: -1;
+    }
+    .content-wrapper{
+        left:0;
+        right:0;
+        z-index: 1;
+        display: flex;
+        max-width: 90%;
+        margin-left:auto;
+        margin-right:auto;
+        position: absolute;
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+    /* END HERO. */
+}
+
+@media (min-width: 1281px) {
+
+    .container{
+        margin: auto;
+        max-width: 1280px;
+        margin-bottom: 5%;
+    }
+
+    /* HERO SECTION. */
+    #hero{
+        margin: 0px auto;
+        max-width: 1280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .img-wrapper{
+        display: inline-flex;
+        justify-content: center;
+    }
+    .content-wrapper{
+        width: 400px;
+        display: flex;
+        margin-left: 5%;
+        position: absolute;
+        flex-direction: column;
+    }
+    /* END HERO. */
+
+
+    /* OURSELVES */
+    #ourselves{
+        margin: auto;
+        max-width: 1280px;
+    }
+    #ourselves > .container > h2{
+        font-size: 40px;
+    }
+    #introduction{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #introduction > div:nth-child(1){
+        display: flex;
+        align-content: flex-start ;
+    }
+    #introduction > div:nth-child(1) > div{
+        max-width: 50%;
+        margin-left: 40px;
+    }
+    .data-wrapper{
+        margin-top: 2.5%;
+        display: flex;
+        justify-content: space-between;
+    }
+}

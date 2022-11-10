@@ -1,0 +1,39 @@
+label{    
+    height: 3em;
+    margin: auto;  
+    display: flex;
+    color: #212353;
+    font-size: 1.5em;
+    position: relative;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #212353;
+}
+input[type="radio"]{    
+    display: none; 
+}
+input[type="radio"]:checked + label{
+    height: 3em;
+    font-weight: bold;
+    text-align: center;
+    background-color: #212353;
+    color: white;
+}
+
+
+
+input[type=text] {
+    height: 3em;
+    border: none;
+    border-bottom: 3px solid #212353;
+}
+input[type=text]:focus {
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #2DC5FA;
+}
+input[type=text]:invalid {
+    border: none;
+    border-bottom: 3px solid red;
+}

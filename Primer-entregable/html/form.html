@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        
+        <link rel="stylesheet" href="../css/general/margins-paddings.css"/>
+        <link rel="stylesheet" href="../css/general/text-and-fonts.css"/>
+        <link rel="stylesheet" href="../css/general/widths-heighs.css"/>
+        <link rel="stylesheet" href="../css/general/aligments.css"/>
+        <link rel="stylesheet" href="../css/general/buttons.css"/>
+        <link rel="stylesheet" href="../css/general/global.css"/>    
+
+        <link rel="stylesheet" href="../css/form/media-queries.css">
+        <link rel="stylesheet" href="../css/form/stylesheet.css">
+        
+    </head>
+
+    <body>
+        
+        <nav>
+            <div class="container">
+                <a href="./index.html"><img src="../resources/ironhack-logo.png" alt="logo-ironhack"></a>
+                <div>
+                    <a class="f-size-16-em t-dark-blue f-weight-400 lateral-margin-10" href="./blog.html">Blog</a>
+                    <a class="f-size-16-em t-dark-blue f-weight-400 lateral-margin-10" href="./enterprise.html">Enterprise</a>
+                </div>
+                <button onclick="parent.location='./form.html'" class="general-btn light-dark-blue-btn radius-5">Apply Now</button>
+            </div>
+        </nav>
+
+        <section id="form-section" class="t-dark-blue">
+            <div class="container">
+                <h1 class="f-size-24-em t-dark-blue">Join Ironhack</h1>
+                <p class="f-size-14-em t-weird-blue">After you applied, our Admissions Manager will get in contact with you shortly to communicate the next steps.</p>
+                <ul class="f-size-14-em t t-weird-blue">
+                    <li>Financing options available for this course</li>
+                    <li>You don’t need technical background</li>
+                    <li>You don’t need technical background</li>
+                    <li>Join our community of over 10.000 students all over the world working in tech.</li>
+                </ul>
+
+                <form id="course-form" action="./index.html">
+                    <p class="f-size-12-em">I'm interested in this course <span style="color:red">*</span></p>
+                    <div id="course">
+                        <div class="option">
+                            <input type="radio" id="cybersecurity" name="course" value="cybersecurity" required>
+                            <label for="cybersecurity">Cybersecurity</label><br>    
+                        </div>
+
+                        <div class="option">
+                            <input type="radio" id="data-analytics" name="course" value="data-analytics" required>
+                            <label for="data-analytics">Data Analytics</label><br>
+                        </div>
+
+                        <div class="option">
+                            <input type="radio" id="ux-ui-design" name="course" value="ux-ui-design" required>
+                            <label for="ux-ui-design">UX/UI Design</label><br>
+                        </div>
+
+                        <div class="option">
+                            <input type="radio" id="web-development" name="course" value="web-development" required>
+                            <label for="web-development">Web Development</label><br>    
+                        </div>
+                    </div>
+                    <div>
+                        <p class="f-size-12-em">Email <span style="color:red">*</span></p>
+                        <input class="w100" placeholder="jon@thewall.com" type="text" requiered>
+                    </div>
+                    <input class="general-btn dark-blue-btn radius-5 w50 top-margin-20px" onclick="parent.location='./form.html'" type="submit" value="Enviar Solicitud">
+                </form>
+            </div>  
+        </section>
+
+        <section id="login">
+            <div class="container t-center">
+                <button class="general-btn blue-btn radius-5 capitalize w100">Enter your info</button>
+                <p class="uppercase f-size-14-em t-dark-blue bold">or</p>
+                <button class="general-btn red-google-btn radius-5 capitalize w100">Continue with Google</button>
+                <p class="f-size-14-em t-weird-blue">By submitting the form, you consent to the processing of your personal data in accordance with the <a class="t-light-blue" href="https://www.ironhack.com/en/legal/privacy-policy">Privacy Policy</a> and you accept the <a class="t-light-blue" href="https://www.ironhack.com/en/legal/terms-of-use">Terms and Conditions</a></p>
+            </div>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,91 @@
+/* FONT PROPERTIES */
+.f-size-56-em{
+    font-size: 5.6em;
+}
+
+.f-size-4-em{
+    font-size: 4em;
+}
+
+.f-size-38-em{
+    font-size: 3.8em;
+}
+
+.f-size-26-em{
+    font-size: 2.6em;
+}
+
+.f-size-24-em{
+    font-size: 2.4em;
+}
+
+.f-size-2-em{
+    font-size: 2em;
+}
+
+.f-size-18-em{
+    font-size: 1.8em;
+}
+
+.f-size-16-em{
+    font-size: 1.6em;
+}
+
+.f-size-14-em{
+    font-size: 1.4em;
+}
+
+.f-size-12-em{
+    font-size: 1.2em;
+}
+
+.f-size-26-em{
+    font-size: 2.6em;
+}
+
+
+
+
+/* FONT WEIGHTS*/
+.f-weight-500{
+    font-weight: 500;
+}
+
+.f-weight-400{
+    font-weight: 400;
+}
+
+
+
+
+/* TEXT PROPERTIES */
+.t-center{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+
+/* TEXT COLOR */
+.t-light-blue{
+    color: #2DC5FA;
+}
+.t-white{
+    color: white;
+}
+.t-weird-blue{
+    color: #717291;
+}
+.t-dark-blue{
+    color: #212353;
+}

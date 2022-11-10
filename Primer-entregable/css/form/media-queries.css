@@ -1,0 +1,39 @@
+@media (max-width: 1280px) {
+
+    .container{
+        margin: auto;
+        max-width: 80%;
+        margin-bottom: 15%;
+    }
+    
+    #course-form > input[type="submit"]{
+        align-self: center;
+    }
+}
+
+
+@media (min-width: 1281px) {
+
+    .container{
+        margin: auto;
+        max-width: 50em;
+        margin-bottom: 5%;
+    }
+    #form-section > div{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+    .container > ul {
+        display: none;
+    }
+    #course-form{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    #course-form > input[type="submit"]{
+        align-self: center;
+    }
+}

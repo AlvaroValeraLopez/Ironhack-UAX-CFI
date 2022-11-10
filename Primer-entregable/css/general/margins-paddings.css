@@ -1,0 +1,20 @@
+/* MARGINS */
+.top-margin-20px{
+    margin-top: 20px;
+}
+
+.bt-margin-10{
+    margin-bottom: 10%;
+}
+
+.lateral-margin-10{
+    margin: 0px 10px;
+}
+
+.top-margin-negative-10{
+    margin-top: -10px;
+}
+
+.top-margin-negative-20{
+    margin-top: -20px;
+}
